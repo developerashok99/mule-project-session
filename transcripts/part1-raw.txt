@@ -1,0 +1,359 @@
+[0:00] Next week, 17th, I'm going to Bangalore.
+[0:04] Right.
+[0:05] I'll be back on the 24th.
+[0:10] Okay.
+[0:11] From 26th, we can start like
+[0:14] preparing the resume here,
+[0:16] let's make a profile here.
+[0:18] Okay.
+[0:19] No, I don't mind if you ask me to do it now.
+[0:22] Okay.
+[0:23] If you make a profile in this week,
+[1:27] and then they'll ask about your experience.
+[1:31] How much experience do you have?
+[1:33] What is your relevant experience in the MuleSoft?
+[1:39] And what was your current package?
+[1:43] And expected CTC.
+[1:47] Current CTC, expected CTC.
+[1:49] So after this,
+[1:51] you saw all these media journals.
+[1:57] So they'll think about like, uh, the notice period and the, uh, and can I go to, and they put down all the, uh, availability.
+[2:09] So for example, no, no, no, no, no, no, no.
+[4:25] They will process your resume.
+[4:28] They will call you if you have shortlisted.
+[4:31] They will schedule an interview.
+[4:33] They will give you an availability.
+[4:35] And then, we will give them an interview.
+[4:38] If they have another round, they will provide us the feedback.
+[4:43] And then, next round.
+[4:45] If they have one more round, if they have a client round, they will have a client round.
+[4:50] Then, they will ask your documents.
+[4:54] then we will release the offer letter, this is the process
+[4:58] ok
+[4:59] this is the basic
+[5:01] and for MuleSoft
+[5:05] let's see, do you have these architectures?
+[5:09] what is the payload content?
+[5:11] what is different styles of architecture in MuleSoft?
+[5:17] MVC architecture
+[5:19] model view controller
+[5:21] business logic or code.
+[5:24] Yeah, okay. Basic concept.
+[5:30] Why do we have architecture swallow?
+[5:33] Yes, we can easily debug.
+[5:37] Basically, why MuleSoft?
+[5:41] MuleSoft is an integration layer.
+[5:44] Let's say, for example,
+[5:48] You have a system like database.
+[5:50] Your company, your company's dedicated system is called SQL database.
+[5:55] So every time, you have to like, whatever the integration, you have to create an account,
+[6:00] you have to get the user information, you have to delete it, you have to update it,
+[6:04] you have to insert information from somewhere else,
+[6:08] you have to do any operation, you have to be connected to the database every time.
+[6:15] So, for example, if you are building an API to create a user account, then what should you do?
+[6:25] You should build a SQL connection again.
+[6:28] You should build queries to insert SQL data.
+[6:33] You have a dedicated system that will be involved in your every project.
+[6:49] For any project, you have to insert the information into the database.
+[6:54] So, instead of calling direct to database, they will call another API, if you want to
+[7:16] insert the data, instead of configuring all the database, you will call a post end point
+[7:21] and you will send the data.
+[7:24] If you want to get some information,
+[7:27] query the information.
+[7:29] Already, in an API, based on the set of requirements
+[7:35] and set of instructions, the API will view such endpoint.
+[7:40] And they will use that historical endpoint
+[7:42] to get the information.
+[7:45] Whatever the database can do,
+[8:17] So you don't need to run for other things because internally you have to have the API details, right?
+[8:27] Yes.
+[8:28] Those API details will be built in the past.
+[8:31] So in this architecture sense, I have worked particularly on the API-led connectivity architecture.
+[8:39] It is also an integration pattern where it comes as extraction, transformation and loading.
+[8:59] Our workflow base is very different.
+[9:03] It will be based on that and will build an infinite number of workflows for every customer, so a new customer will get a new workflow.
+[9:25] So, based on this workflow, their integration will be run by using this QAPS.
+[9:32] So, there are many different integration patterns.
+[9:37] Some may do it in single layer architecture.
+[9:41] Some may have IP address connectivity approaches.
+[9:46] So, it will be enough if we prepare for this interview work.
+[10:23] I have a question for you, I am asking you to prepare an integration, what is the requirement, so I have a source system, from the source system I have a JSON payload, so the JSON payload contains a unique transaction ID or something, there is a unique transaction ID
+[11:30] and after it is stored, you will call a target system
+[11:38] ok, another target system, that was completed
+[11:42] so next time, the user sent the transaction
+[11:47] ok, this time the same transaction was sent with the same ID
+[11:53] so what you have to do this time is
+[12:27] First, we use the POST method.
+[12:29] We use the POST method to design an API.
+[12:31] What that API does is
+[12:33] it injects the unique ID
+[12:35] in the DB with a transition.
+[12:37] Then it will
+[12:39] call to the target system.
+[12:41] The second time
+[12:43] when the same transition ID
+[12:45] is sent,
+[12:47] we first tick it. It is already
+[12:49] not in the DB. If it is not
+[12:51] in the DB, we will again
+[12:53] use a POST and we will create
+[12:55] and create query in the DB. In case DB will use an update method. Update or patch or put or something.
+[13:05] We will use it, update the record and send it to the target.
+[13:11] Okay. So, if we want to do it in Mule software, we can use N-connectors.
+[13:17] I don't know. It hasn't worked on DB yet.
+[13:21] It is post-born connectors, right? DB connectors.
+[13:25] It is not a DB. It is an object store idea.
+[13:29] Right. It is an object store idea to temporarily store it locally.
+[13:33] Okay. Let's say it is a file system.
+[13:37] Let's say it is a normal local file system.
+[13:41] How will you do it?
+[13:43] the first two file system
+[13:49] file link, data, and extract
+[13:52] file link, data, and extract
+[13:52] file link, data, and extract
+[13:52] file link, data, and extract now.
+[13:57] Jason.
+[14:13] the payload, already existing payload, or new payload.
+[14:17] Yes, I understand the concept, but how do you do it in MuleSoft?
+[14:21] Let's say,
+[14:27] first, you got a record,
+[14:31] and you are storing
+[14:35] the record, somewhere like input payload and
+[14:39] record, so how will you store it?
+[14:45] the data to the flow work, how to store the flow work in the variable, set variable, set
+[15:01] variable will have a concept, so the set variable will be stored under the key value name, store
+[15:41] So let's say for integration, first ID store then file read, file read was the connector to read files from a path.
+[15:55] So you know that they are storing the files with the same ID.
+[16:01] So same idea to file existing in the layer use control the list connector. It's not okay. We'll get all the file names.
+[16:09] Filter is control data. We'll all across to filter it out with the file name.
+[16:15] Existing good day, then you have to update it later. Right.
+[16:19] What the hell I just saw that for them.
+[16:21] They don't know what I mean.
+[16:23] Updates.
+[16:25] Okay.
+[16:27] All right. Just on the file.
+[16:29] Okay.
+[16:32] So much.
+[16:34] I didn't know.
+[16:38] Project change.
+[16:40] Well, it's just
+[16:42] He brought it to the
+[19:37] It is easy to say, but it is not easy to do.
+[19:50] What is this?
+[19:53] This is a new one.
+[19:56] What is the name of the company?
+[20:00] Moulson Coors
+[20:07] Moulson Coors is a cargo integration project
+[20:11] It is a US based project
+[20:15] What is Moulson Coors?
+[20:19] multinational drink and
+[20:23] beverage company
+[20:27] Brandy what? Okay, so we need to.
+[20:34] How did that need to be cringe questions and I don't know.
+[20:39] So it's a bear as a company. So we'll come on.
+[20:44] So he wants to integrate like we do all the success.
+[20:49] So we're going to be.
+[20:52] So he's going to go to a very different countries, so he needs a logistics partner.
+[20:59] So for that, he wants to do integration with Cargo Voice.
+[21:04] Okay.
+[21:05] I can't hear your voice if I talk.
+[21:45] What?
+[21:46] Like, he wants to do integration with a shipment tool called Cargo Voice.
+[21:55] Let's see. So, here there is a small point. What is this company?
+[22:14] So, this is equal to the source. What is the target? Target wise.
+[22:29] So, what is this? It is a shipment management tool.
+[23:09] company or something like a short line and then cargo is the shipment management tool
+[23:15] where it manages logistics.
+[23:20] So integration is like this, so Monson Coors is going to do logistics with cargo.
+[23:33] So in the first integration, he has to do the bookings, okay, so he has to do the bookings
+[23:41] with someone called Moulton course, he likes this system and she likes this system, right,
+[23:50] so he has to build that integration, so he wants to be an integration team for communication
+[24:00] That's why he chose our company, our company used MuleSoft and that's why we are here.
+[24:11] So here we have to do the bookings, so we have to create the bookings in CargoVisual.
+[24:24] So, how it will do? Normally, you call the operators and tell them to send the mail to the operators.
+[24:31] So, the operators will look at the mail and book the shipment management tool.
+[24:37] It will be like a form, like a booking tool.
+[24:44] So, all the information will be entered and the booking will be created.
+[24:50] That is how it works manually.
+[24:53] So here, we have automated it.
+[24:58] Whenever we get a booking, we have to create it in CargoVisual.
+[25:04] So from the malls and courses, we get 300 EDI files.
+[25:14] So 300 EDI files are electronic data interchange files.
+[25:21] So, these are in the flat file format, okay.
+[25:26] So, in future, I will tell you more about this.
+[25:30] This is in the flat file structured format.
+[25:36] Let's see a sample.
+[25:40] I will give you a real-time sample as well.
+[25:45] So 4 0 1 0 is the different versions of video files and in that we use the 4 0 1 0 version, this is how it looks.
+[26:26] Okay.
+[26:28] So, all the integration in Molten Core
+[26:31] will be based on these files.
+[26:33] Okay.
+[26:35] So,
+[26:37] this is called the ISA segment.
+[26:39] So, we can
+[26:41] learn about this EDA later.
+[26:43] So, here
+[26:45] booking number will be there.
+[26:47] Contact information will be there.
+[26:50] Addresses will be there.
+[26:52] Route details will be there.
+[26:54] like loading is happening in the airport and unloading is happening in the airport.
+[26:58] If I want any type of container, I need 40ft key.
+[27:04] Or 40 foot general purpose container.
+[27:10] So in L5, what is he sending?
+[27:15] He is sending electronic components.
+[27:17] So this is gross weight 8504.
+[27:20] So, I know this EDA files are very easy to understand, but in future you will understand this file.
+[27:26] So, this is how one file can be cataloged.
+[27:32] Okay, so there are different ways to get this file.
+[27:38] So, we will talk about
+[27:44] AS2, AS2 connection. So we have HTTP protocol and this is also a protocol to transfer to the web services.
+[28:02] So, AS2 is a security protocol where it has client and target partners.
+[28:10] So, we have to provide the certificates and everything.
+[28:17] So, let's give you an interview point of view.
+[28:21] Let's say, we have used SFTP here.
+[28:29] So, there will be an interview point of view and an AS2 and a foundation.
+[28:33] But there will be a lot of questions on that.
+[29:19] So we can use this to extract this 300 EDA file.
+[29:29] Extracting this file will define the default schemas in this connector.
+[29:40] So it will parse the schemas and extract it.
+[29:46] Okay, then you can use it as JSON or anything.
+[29:49] So, you can extract it into JSON.
+[29:52] Then you will start mapping.
+[29:54] So, now you have your JSON file, for example.
+[29:58] Okay.
+[29:59] From here, you can extract it into JSON.
+[30:02] Excellent.
+[30:08] Then you have your JSON.
+[30:11] And you have sent it to Cargavise from JSON.
+[30:14] Right.
+[30:15] Right? So, Cargavise only accepts XML in module.
+[30:28] So, Cargavise only accepts XML in specific modules.
+[30:34] So, from what you have done, you have to transform XML.
+[30:42] Okay? In that specific module.
+[30:48] Transform.
+[30:50] So, okay.
+[31:00] It's on the street, right?
+[31:02] Yeah.
+[31:03] So, transform this one more time.
+[31:12] So, transform this one more time.
+[31:16] So, transform this one more time.
+[31:17] The next step is send the target.
+[31:24] To?
+[31:27] To our voice.
+[31:30] Okay.
+[31:31] So, one of the adapter services.
+[31:41] So, the protocol is STTPS.
+[31:47] Now, let me show you how to do it in Mural.
+[31:53] So, via STTPS request to users, you send the file to them.
+[32:01] This is your complete business.
+[32:05] Okay, this is what you are doing in your business, one page of business, okay, you have an extension, but if you put it in a single layer, this is it.
+[33:01] and what is this?
+[33:02] Okay.
+[33:03] If you want me to tell you about this project, I will tell you like this.
+[33:08] First, there will be an intro, so watch out.
+[33:13] And this is my experience.
+[33:17] This is my overall experience into MuleSoft.
+[33:22] And then, after that, I have done this certification or whatever, we will tell you about it.
+[33:29] So you can add some point like in the previous organization, I got a certificate or something like that.
+[33:39] I will walk you through my latest project.
+[33:47] So then you will start this integration.
+[33:51] Let's talk about my last project. It was Molson Coors and Cargoise integration project.
+[33:57] So Molson course was our source system.
+[33:59] It is a beverages company and coming to cargo
+[34:03] as it is a target system, it is a shipment management tool.
+[34:06] So from Molson course, we are receiving the data
+[34:10] and that data will be in 300 EDF format
+[34:13] and in like 300 EDF format and we'll get 304 like that.
+[34:21] So basically these files contains booking information
+[34:24] which is like booking number, addresses,
+[34:29] contact information, port information.
+[34:31] So all this kind of information
+[34:33] we'll get from the Molson in 300 EDFI format.
+[34:37] And we are extracting that 300 EDFI format
+[34:41] into JSON by using extra read connector.
+[34:45] And then we are transforming that into XML
+[34:48] by using some data web logics
+[34:50] according to the target system cargoize.
+[34:53] And then we are sending the files to CargoWise via eAdapter.
+[34:59] It's a HTTP protocol.
+[35:01] That is how we are posting the files to the CargoWise.
+[35:04] And this is our business.
+[35:06] And then, so later that, you will discuss about connections.
+[35:14] So coming to connection-wise, we have exposed a few APIs
+[35:19] to Fluent.
+[35:21] So we are using, sorry, we built a few APIs for Fluence.
+[35:26] They work on SFTP connection.
+[35:28] Where SFTP, we are receiving the files from the Fluence
+[35:31] that are media from.
+[35:33] And we are sending files to Cargovice via HTTP
+[35:36] by using EARaptor.
+[35:38] So that was your connection.
+[35:40] Then you'll talk about security.
+[35:44] So we are securing the APIs internally
+[35:48] using client data enforcement policy
+[35:50] and we are securing sensitive information in the property files via using encryption algorithms
+[35:57] like AS encryption algorithm like that, entire security, yeah, E2 points, E2 points, okay.
+[36:08] Then we'll talk about error handling. So how are you handling errors in your flows?
+[36:16] So, coming to error handling, we have common flows, and in that common flows, we will
+[36:26] have a global error handler.
+[36:29] So whenever there is an issue in the flow, it will directly go to the global error
+[36:35] handler.
+[36:36] So from there, we are processing the error and we are storing the error message and
+[36:42] logging the error message in a proper format and also we are creating a 0 ticket with the
+[36:51] correlation ID and the error message and some properties where we can retry the same
+[36:59] file.
+[37:01] And also we are triggering notifications to the source and target recipients and the
+[37:09] So, this is how you are handling and properly alerting a test node.
+[37:18] So, then that is also completed.
+[37:21] Then you have to go to the next step, where how are you building your project?
+[37:27] So our entire code repository was Bitbucket and we are deploying our code and we are deploying
+[37:42] our project into cloudop 2.0 via CACD Bitbucket pipelines.
+[37:49] So this was a static point, no very direct copyless key point, okay, because we are,
+[37:57] I am working on bit by bit pipeline.
+[37:59] So that is how, you will start putting out a few questions, okay.
+[38:19] So what I am giving to you is, so instead of SFTP views and file, just file connection
+[38:36] uses go, 300 file samples, pick those samples and place it in a, like on your file connector
+[38:46] Whenever you place the file, it will run and fix that file.
+[38:50] And use extra read connector.
+[38:54] Then it will read it.
+[38:56] And you can add a transform message to convert that into JSON.
+[39:00] And I have given a sample XML file to XML.
+[39:05] Or I have seen a mapping sheet, I don't know.
+[39:10] I will provide some information to you.
+[39:13] then you have to transform it to some XML, okay, so then, so parallel you have to create
+[39:27] another API, so you have to create this request as well, this is the second API, okay, so
+[39:34] what should be in the second API, you need an XML payload, so from the XML payload,
+[39:40] You have to create a dummy response by taking some properties from the access payload.
+[39:53] It's not completely dummy.
+[39:55] Like you received a booking, you have to accept that booking and respond to it under a confirmation message.
+[40:02] So, like you can put some validations or something in your map, which can accept this XML and
+[40:12] sends a response.
+[40:13] So, this is also deployed in the application and kept.
+[40:19] So, after this is done, you have to call it here in this part.
+[40:25] So, after your XML is ready, you send the XML to Cargavise.
+[40:30] Okay, so that's how you can complete this integration.
+[40:46] So first, if I'll waste the connection uses from see you, then we'll take it up to the
+[40:53] next level like queue mechanism uses or a real case of tp connection uses, then a real
+[41:05] time scenario when you do up to this you will get like complete idea on how you are extracting
+[41:13] and what are the parameters that you are using in this read and then after this
+[41:19] When you are sending back to them, they need a few fields which Cargavay is not able to
+[41:48] send to you.
+[41:50] So you need to capture those fields when you are sending it back to the source and you
+[41:54] have to inject them into like the 3015, they need to get it in the EDA format only, if
+[42:02] this is booking, they are sending 300, you have to send 3015 for booking confirmation,
+[42:08] you have to create an EDA file, so that mapping will be hard.
+[42:13] So then we will do it with the X12 write component, it can be pasted, let's when
+[42:18] So, when you complete this page, we will go for the page two.
+[42:22] Okay.
+[42:24] Okay.
+[42:25] In this explanation, we can go with the page one only.
+[42:30] For him, page two.
+[42:32] If we say this too much, he will not understand.
+[42:35] Okay.
+[42:36] It should be simple and clear.
+[42:41] Okay.
+[42:42] So, I think this is enough.
+[42:47] We will connect again in the afternoon.
+[42:49] Okay.

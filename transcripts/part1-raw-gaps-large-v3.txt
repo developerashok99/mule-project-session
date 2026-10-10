@@ -1,0 +1,88 @@
+--- gap 0:20-1:30
+[0:20] I am okay with that.
+[0:22] Okay.
+[0:24] After profiling in this week,
+[0:26] it will take at least one week for you to get calls.
+[0:30] Do you have an idea to talk through calls?
+[0:34] Yeah.
+[0:36] Like HR has called.
+[0:38] They are asking about you.
+[0:41] So you have to keep three things in mind.
+[0:44] One is, as a new developer,
+[0:47] What are your roles and responsibilities as a developer?
+[0:50] Some people ask this question.
+[0:55] They ask some default questions regarding JD.
+[1:00] What do you do as a MuleSoft developer?
+[1:04] There are some points.
+[1:07] We have to tell them to match.
+[1:10] For example, LED connectivity approach, choice router connectors, etc.
+[1:20] Once they ask the questions, we can also explain the roles and responsibilities in the description.
+--- gap 2:06-4:28
+[2:06] For example, if you have the same candidate for one month, they will go for you immediately.
+[2:21] What else to ask?
+[2:28] In the normal calls, like your first initial call, you handle it.
+[2:33] Or else, I will handle it myself.
+[2:36] No, I will handle it.
+[2:38] Yes, it is like that.
+[2:41] So then, you have to note down which company.
+[2:45] For us, it is the phone instead of the company.
+[2:47] Hmm.
+[2:49] Okay.
+[2:52] Thank you very much.
+[3:22] Thank you.
+[3:52] You have to keep all the calls from each company and list them every day.
+[4:08] You have to update the status of each company daily.
+[4:15] You know this process, right? They will call you, they will say that if it is shortlisted, we will do it, and they will process it according to your availability.
+--- gap 16:38-19:40
+[16:38] You didn't do any project, right?
+[16:40] You came after doing a project.
+[16:42] What is this project?
+[16:44] Now I will tell you how your project will be.
+[16:48] So, what I am saying is that it is based on workflow, right?
+[16:52] I am telling you one workflow for your project.
+[16:58] Okay.
+[16:59] One workflow for each project.
+[17:05] So, I can tell you all the ETL structures, but even the person who is going to tell you will not understand it, he will get confused.
+[17:13] Like what is that, how did you do that, there will be cross-questions, so for that, just a single laid simple like a project so that he understands the business.
+[17:24] So, this description is very important, like in your interview, for the first 5 to 10 minutes, you will say this.
+[17:34] So this is the information, this is the like intro that you have to grab, like word attention, so you have to say it realistically, you know, you can use my words, like my words, the ones that I took, the ones that I improvised, it's all up to you, so let's say, for example,
+[18:00] I work on the project as well.
+[18:30] Okay, project opening, okay, I will tell you a small sample project in this, the actual project
+[18:56] Let's see if there is a new site.
+[19:05] Okay, we have taken malls and courts.
+[19:09] So malls and courts, let's see.
+[19:19] Why do you talk like that in your brain now?
+[19:24] It's like giving a call to the president.
+[19:30] It's like giving a call to the president.
+[19:32] It's like giving a call to the president.
+[19:34] I already have a project with everyone.
+--- gap 21:02-21:48
+[21:02] So, he wants to do integration.
+[21:13] If you talk, I can't hear you.
+[21:32] Thank you.
+--- gap 28:30-29:22
+[28:30] In the interview point of AS2, there is a foundation. But there will be a lot of portions on that.
+[28:36] AS2 is a bit difficult. AS2 connection may not be known to him.
+[28:42] So, you are using SFTP connection.
+[28:47] You will put the file and then you will bit the file.
+[28:52] So, what is x12 read? He is sending an EDI file, isn't it?
+[29:12] to extract the same file, x12 is a connector in mule software
+--- gap 32:02-33:04
+[32:02] This is completely your business.
+[32:12] This is what you are doing in your business, one page of business.
+[32:25] Okay, I have an extension, but if I keep it in a single layer, it will be like this.
+[32:30] Okay.
+[32:31] So, that's how a real-time business works.
+[32:35] That's it.
+[32:37] So, what is your source system here?
+[32:42] The source system is bookings, right?
+[32:44] Huh?
+[32:45] Bookings means...
+[32:48] What is this?
+[32:50] Malsan Kursa
+[32:58] So Malsan Kursa is NISO system and what is it?
+--- gap 41:16-41:51
+[41:16] in this read and then after this product so then pays to intend a cargo wise
+[41:25] in chief information myself sorry in XML then you know back to EDI JC back to
+[41:32] source system of which there was other project so it like it's a mom business
+[41:40] When you are sending back to them, they need few fields which Cargo is not able to send to you.
