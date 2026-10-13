@@ -1,0 +1,174 @@
+{
+  "Errors": [],
+  "Delimiters": "*>U~",
+  "TransactionSets": {
+    "v004010": {
+      "300": [
+        {
+          "Interchange": {
+            "ISA09": "2023-06-20T00:00:00+05:30",
+            "ISA04": "",
+            "ISA15": "P",
+            "ISA03": "00",
+            "ISA14": "0",
+            "ISA02": "",
+            "ISA13": 3,
+            "ISA01": "00",
+            "ISA12": "00401",
+            "ISA08": "CARGO",
+            "ISA07": "ZZ",
+            "ISA06": "FLUENCE",
+            "ISA05": "ZZ",
+            "ISA16": ">",
+            "ISA11": "U",
+            "ISA10": 42240000
+          },
+          "Group": {
+            "GS05": 42240000,
+            "GS04": "2023-06-20T00:00:00+05:30",
+            "GS07": "X",
+            "GS06": 1,
+            "GS08": "004010",
+            "GS01": "RO",
+            "GS03": "CARGO",
+            "GS02": "FLUENCE"
+          },
+          "Heading": {
+            "020_B1": {
+              "B103": "2023-04-17T00:00:00+05:30",
+              "B104": "R",
+              "B101": "MUHB",
+              "B102": "SHIP006792"
+            },
+            "080_N1_Loop": [
+              {
+                "110_N4": { "N401": "Bangalore", "N402": "KA", "N403": "560068", "N404": "IN" },
+                "120_G61": [
+                  { "G6101": "CN", "G6103": "EM", "G6102": "Kodi Angel", "G6104": "kodi.angel@quinnox.com" }
+                ],
+                "100_N3": [ { "N301": "23,24, 3rd floor, AMR Tech Park 4, Bomanahalli" } ],
+                "080_N1": { "N101": "FW", "N102": "Quinnox" }
+              },
+              {
+                "110_N4": { "N401": "Bangalore", "N402": "KA", "N403": "560103", "N404": "IN" },
+                "120_G61": [
+                  { "G6101": "CN", "G6103": "EM", "G6102": "Edvin Ryding", "G6104": "Edvin.Ryding@flipkart.com" }
+                ],
+                "100_N3": [ { "N301": "Embassy Tech Village Road" } ],
+                "080_N1": { "N101": "CN", "N102": "Flipkart Internet Pvt Ltd" }
+              },
+              {
+                "110_N4": { "N401": "Austin", "N402": "TX", "N403": "78725", "N404": "US" },
+                "120_G61": [
+                  { "G6101": "CN", "G6103": "EM", "G6102": "Stan Lee", "G6104": "Stan.Lee@teslamotors.com" }
+                ],
+                "100_N3": [ { "N301": "1 Tesla Road Austin" } ],
+                "080_N1": { "N101": "SH", "N102": "Tesla Motors" }
+              }
+            ],
+            "050_Y1": { "Y103": "MUHB", "Y105": "SH", "Y108": "PP" },
+            "130_R4_Loop": [
+              { "130_R4": { "R404": "Bangalore", "R403": "INBLR5", "R401": "R" } },
+              { "130_R4": { "R404": "Bangalore", "R403": "INBLR5", "R401": "L" } },
+              { "130_R4": { "R404": "Houston", "R403": "USHOU", "R401": "D" } },
+              { "130_R4": { "R404": "Houston", "R403": "USHOU", "R401": "E" } }
+            ],
+            "069_N9": [ { "N901": "Ref", "N902": "8687564658" } ]
+          },
+          "SetTrailer": { "SE02": "0001", "SE01": 31 },
+          "Summary": {},
+          "Id": "300",
+          "SetHeader": { "ST01": "300", "ST02": "0001" },
+          "Detail": {
+            "010_LX_Loop": [
+              {
+                "040_L0": { "L011": "K", "L007": "X", "L006": 878, "L004": 280, "L009": "PKG", "L008": 80 },
+                "010_LX": { "LX01": 1 }
+              },
+              {
+                "040_L0": { "L011": "K", "L007": "X", "L006": 878, "L004": 280, "L009": "PKG", "L008": 80 },
+                "010_LX": { "LX01": 2 }
+              },
+              {
+                "040_L0": { "L011": "K", "L007": "X", "L006": 878, "L004": 280, "L009": "PKG", "L008": 80 },
+                "010_LX": { "LX01": 3 }
+              },
+              {
+                "040_L0": { "L011": "K", "L007": "X", "L006": 878, "L004": 280, "L009": "PKG", "L008": 80 },
+                "010_LX": { "LX01": 4 }
+              }
+            ],
+            "090_V1": [ { "V102": " COSCO", "V101": "9448815" } ],
+            "110_K1": [ { "K101": "Goods Description", "K102": "Handle with care" } ]
+          },
+          "Name": "Reservation (Booking Request) (Ocean)"
+        }
+      ]
+    }
+  },
+  "FunctionalAcksGenerated": [
+    {
+      "Interchange": {
+        "ISA09": "2023-06-20",
+        "ISA04": "",
+        "ISA15": "P",
+        "ISA03": "00",
+        "ISA14": "0",
+        "ISA02": "",
+        "ISA13": 3,
+        "ISA01": "00",
+        "ISA12": "00401",
+        "ISA08": "FLUENCE",
+        "ISA07": "ZZ",
+        "ISA06": "CARGO",
+        "ISA05": "ZZ",
+        "ISA16": ">",
+        "ISA11": "U",
+        "ISA10": 78420000
+      },
+      "Group": {
+        "GS05": 78420000,
+        "GS04": "2023-06-20",
+        "GS07": "X",
+        "GS06": 1,
+        "GS08": "004010",
+        "GS01": "FA",
+        "GS03": "FLUENCE",
+        "GS02": "CARGO"
+      },
+      "Heading": {
+        "0200_AK1": { "AK101": "RO", "AK102": 1 },
+        "0700_AK9": { "AK903": 1, "AK904": 1, "AK901": "A", "AK902": 1 }
+      },
+      "Id": "997",
+      "Name": "Functional Acknowledgment"
+    }
+  ],
+  "InterchangeAcksGenerated": [
+    {
+      "Interchange": {
+        "ISA09": "2023-06-20",
+        "ISA04": "",
+        "ISA15": "P",
+        "ISA03": "00",
+        "ISA14": "0",
+        "ISA02": "",
+        "ISA13": 3,
+        "ISA01": "00",
+        "ISA12": "00401",
+        "ISA08": "FLUENCE",
+        "ISA07": "ZZ",
+        "ISA06": "CARGO",
+        "ISA05": "ZZ",
+        "ISA16": ">",
+        "ISA11": "U",
+        "ISA10": 78420000
+      },
+      "TA104": "A",
+      "TA105": "000",
+      "TA102": "2023-06-20",
+      "TA103": 78420000,
+      "TA101": 3
+    }
+  ]
+}

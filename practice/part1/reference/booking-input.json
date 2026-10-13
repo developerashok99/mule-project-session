@@ -1,0 +1,146 @@
+{
+    "ShipmentID": "SHIP006792",
+    "SCAC": "MUHB",
+    "Action Code": "Create",
+    "ShipDate": "2023-04-17T00:00:00Z",
+    "Address" : [
+        {
+            "AddressType": "Consignee",
+            "CompanyName": "Flipkart Internet Pvt Ltd",
+            "Address": "Embassy Tech Village Road",
+            "City": "Bangalore",
+            "State" : "KA",
+            "Country": "IN",
+            "PostalCode": "560103",
+            "ContactMail": "Edvin.Ryding@flipkart.com",
+            "ContactName": "Edvin Ryding"
+        },
+        {
+            "AddressType": "Forwarder",
+            "CompanyName": "Quinnox",
+            "Address": "23,24, 3rd floor, AMR Tech Park 4, Bomanahalli",
+            "City": "Bangalore",
+            "State" : "KA",
+            "Country": "IN",
+            "PostalCode": "560068",
+            "ContactMail": "kodi.angel@quinnox.com",
+            "ContactName": "Kodi Angel"
+        },
+        {
+            "AddressType": "Shipper",
+            "CompanyName": "Tesla Motors",
+            "Address": "1 Tesla Road Austin",
+            "City": "Austin",
+            "State" : "TX",
+            "Country": "US",
+            "PostalCode": "78725",
+            "ContactMail": "Stan.Lee@teslamotors.com",
+            "ContactName": "Stan Lee"
+        }
+    ],
+    "EstimatedDate": "2023-04-25T00:00:00Z",
+    "PlaceofReceipt": {
+        "Code" : "INBLR5",
+        "Name" : "Bangalore"
+    },
+    "PortofLoading" : {
+        "Code" : "INBLR5",
+        "Name" : "Bangalore"
+    },
+    "PortofDischarge": {
+        "Code" : "USHOU",
+        "Name" : "Houston"
+    },
+    "PlaceofDelivery": {
+        "Code" : "USHOU",
+        "Name" : "Houston"
+    },
+    "DeliveryDate": "2023-06-02T00:00:00Z",
+    "ReferenceCollection": [
+        {
+            "BookingReference": {
+                "Type": "Reference",
+                "Number": "8687564658"
+            }
+        }
+    ],
+
+"VesselName": " COSCO",
+"VesselIMO": "9448815",
+"Packages":[
+    {
+        "Weight": 280,
+        "WeightUOM": {
+            "Code" : "KG",
+            "Description" : "Kilograms"
+        },
+        "Volume": 878,
+        "VolumeUOM": {
+            "Code" : "M3",
+            "Description" : "Cubicmeters"
+        },
+        "PackQty": 80,
+        "PackageType": {
+        "Code" : "PKG",
+        "Description" : "Package"
+        }
+    },
+    {
+        "Weight": 280,
+        "WeightUOM": {
+            "Code" : "KG",
+            "Description" : "Kilograms"
+        },
+        "Volume": 878,
+        "VolumeUOM": {
+            "Code" : "M3",
+            "Description" : "Cubicmeters"
+        },
+        "PackQty": 80,
+        "PackageType": {
+        "Code" : "PKG",
+        "Description" : "Package"
+        }
+    },
+    {
+        "Weight": 280,
+        "WeightUOM": {
+            "Code" : "KG",
+            "Description" : "Kilograms"
+        },
+        "Volume": 878,
+        "VolumeUOM": {
+            "Code" : "M3",
+            "Description" : "Cubicmeters"
+        },
+        "PackQty": 80,
+        "PackageType": {
+        "Code" : "PKG",
+        "Description" : "Package"
+        }
+    },
+    {
+        "Weight": 280,
+        "WeightUOM": {
+            "Code" : "KG",
+            "Description" : "Kilograms"
+        },
+        "Volume": 878,
+        "VolumeUOM": {
+            "Code" : "M3",
+            "Description" : "Cubicmeters"
+        },
+        "PackQty": 80,
+        "PackageType": {
+        "Code" : "PKG",
+        "Description" : "Package"
+        }
+    }
+],
+"NoteCollection": [
+    {
+        "NoteType": "Goods Description",
+        "NoteText": "Handle with care"
+    }
+]
+}

@@ -1,0 +1,35 @@
+ISA*00*          *00*          *ZZ*QUINOXT        *ZZ*FLKRTT         *230409*2021*U*00401*000000004*0*P*>~
+GS*RO*QUINOX*FLKRT*20230409*2021*1*X*004010~
+ST*300*0001~
+B1*MUHB*SHIP006792*20230417*R~
+Y1***MUHB**SH***PP~
+N9*Reference*8687564658~
+N1*FW*Quinnox~
+N3*23,24, 3rd floor, AMR Tech Park 4, Bomanahalli~
+N4*Bangalore*KA*560068*IN~
+G61*CN*Kodi Angel*EM*kodi.angel@quinnox.com~
+N1*CN*Flipkart Internet Pvt Ltd~
+N3*Embassy Tech Village Road~
+N4*Bangalore*KA*560103*IN~
+G61*CN*Edvin Ryding*EM*Edvin.Ryding@flipkart.com~
+N1*SH*Tesla Motors~
+N3*1 Tesla Road Austin~
+N4*Austin*TX*78725*US~
+G61*CN*Stan Lee*EM*Stan.Lee@teslamotors.com~
+R4*R**INBLR5*Bangalore~
+R4*L**INBLR5*Bangalore~
+R4*D**USHOU*Houston~
+R4*E**USHOU*Houston~
+LX*1~
+L0****280**878*X*80*PKG**K~
+LX*2~
+L0****280**878*X*80*PKG**K~
+LX*3~
+L0****280**878*X*80*PKG**K~
+LX*4~
+L0****280**878*X*80*PKG**K~
+V1*9448815* COSCO~
+K1*Goods Description*Handle with care~
+SE*31*0001~
+GE*1*1~
+IEA*1*000000004~

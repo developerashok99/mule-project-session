@@ -2,7 +2,7 @@
 
 A one-to-one mentoring call on Google Meet, about 44 minutes, spoken mostly in Telugu with English technical terms. The mentor plans the student's job search, checks some MuleSoft basics, asks a design question, then builds a sample project explanation on screen (**Molson Coors → CargoWise booking integration**) and sets a practice task.
 
-**How this was made.** Whisper `medium` (run locally) translated the Telugu audio to English. A few stretches it skipped (0:20–1:30, 2:06–4:28, 16:38–19:40, 21:02–21:48, 28:30–29:22, 32:02–33:04, 41:16–41:51) were run again with Whisper `large-v3`. The text was then cleaned using the on-screen notes: misheard terms were corrected ("Moulson Coors / Malsan Kursa" → Molson Coors, "Cargo Voice / CargoVisual / Cargavise" → CargoWise, "EDA / EDF file" → EDI file, "extra read" → X12 Read, "STTPS" → HTTPS, "EARaptor" → eAdaptor, "cloudop 2.0" → CloudHub 2.0, "CACD" → CI/CD, "3015" → 301). Repetition loops and side chatter were removed. Nothing was added; anything that can't be recovered is marked **[unclear]**, and *[screen: …]* lines show what was on the shared screen. Speakers are **Mentor** and **Student**.
+**How this was made.** Whisper `medium` (run locally) translated the Telugu audio to English. A few stretches it skipped (0:20–1:30, 2:06–4:28, 16:38–19:40, 21:02–21:48, 28:30–29:22, 32:02–33:04, 41:16–41:51) were run again with Whisper `large-v3`. The text was then cleaned using the on-screen notes: misheard terms were corrected ("Moulson Coors / Malsan Kursa" → Molson Coors, "Cargo Voice / CargoVisual / Cargavise" → CargoWise, "EDA / EDF file" → EDI file, "extra read" → X12 Read, "STTPS" → HTTPS, "EARaptor" → eAdaptor, "cloudop 2.0" → CloudHub 2.0, "CACD" → CI/CD, "3015" → 301, "Fluent/Fluence" → Fluence, confirmed by the sender ID `FLUENCE` in the mentor's reference X12 file). Repetition loops and side chatter were removed. Nothing was added; anything that can't be recovered is marked **[unclear]**, and *[screen: …]* lines show what was on the shared screen. Speakers are **Mentor** and **Student**.
 
 Raw output: [part1-raw.txt](part1-raw.txt) · [part1-raw-gaps-large-v3.txt](part1-raw-gaps-large-v3.txt) · Slides: [slides/part1](../slides/part1/README.md)
 
@@ -162,7 +162,7 @@ Raw output: [part1-raw.txt](part1-raw.txt) · [part1-raw-gaps-large-v3.txt](part
 
 **[35:06] Mentor:** After that you talk about **connections**:
 
-> "Coming to connections: we built a few APIs for the **[unclear — "Fluent/Fluence"; probably the client]**. They work over an **SFTP** connection: through SFTP we receive the files from them, and we send files to CargoWise via HTTP using the **eAdaptor**."
+> "Coming to connections: we built a few APIs for **Fluence**. They work over an **SFTP** connection: through SFTP we receive the files from Fluence, and we send files to CargoWise via HTTP using the **eAdaptor**."
 
 **[35:40]** Then you talk about **security**:
 
